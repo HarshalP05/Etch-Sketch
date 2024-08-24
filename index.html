@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="maincontainer">
+        <h1> Welcome To Etch A Sketch</h1>  
+        <div class="button-container">
+        <input  type="number" id="num" placeholder="1-100" value="16">    
+        <button class="button-50" id="button">Resize</button>
+        <button class="button-50" id="colorbutton">COLOR</button>
+        <button class="button-50" id="bwbutton">BW</button>
+        <button class="button-50"  id="clear">clear all</button> </div>
+        <label for="sizeSelect">Select Size:</label>
+        <select id="sizeSelect">
+            <option value="300x300">Small (300x300)</option>
+            <option value="500x500" selected>Medium (500x500)</option>
+            <option value="700x700">Large (700x700)</option>
+            <option value="1000x1000">Extra Large (1000x1000)</option>
+        </select>
+        <div  class="container "id="sketch"> </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
